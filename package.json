@@ -1,0 +1,29 @@
+{
+  "name": "mcp-file-summary",
+  "version": "1.0.0",
+  "description": "An MCP (Model Context Protocol) tool for summarizing general files with recommendations on a local device.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kale-Wu/mcp-file-summary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kale-Wu/mcp-file-summary/issues"
+  },
+  "homepage": "https://github.com/Kale-Wu/mcp-file-summary#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.1",
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "mammoth": "^1.9.1",
+    "openai": "^5.8.4",
+    "pdf-parse": "^1.1.1"
+  }
+}
