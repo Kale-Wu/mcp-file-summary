@@ -1,11 +1,14 @@
 {
   "name": "mcp-file-summary",
   "version": "1.0.0",
-  "description": "An MCP (Model Context Protocol) tool for summarizing general files with recommendations on a local device.",
+  "description": "An MCP (Model Context Protocol) tool for getting system info on the local device.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mcp-si-summary": "index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,7 @@
     "commander": "^14.0.0",
     "mammoth": "^1.9.1",
     "openai": "^5.8.4",
-    "pdf-parse": "^1.1.1"
+    "pdf-parse": "^1.1.1",
+    "systeminformation": "^5.27.7"
   }
 }

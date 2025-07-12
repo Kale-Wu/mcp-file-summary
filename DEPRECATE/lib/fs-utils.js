@@ -13,7 +13,7 @@ export function walkDir(dir, fileList = []) {
     
     // Check if dir is a directory
     if (!stats.isDirectory()) {
-        throw new Error(`Path ${dir} is not a directory or file`); // Throw an error if the path is neither a directory nor a file
+        throw new Error(`Path ${dir} is not a directory or file`);
     }
 
     // Read all files in directory
