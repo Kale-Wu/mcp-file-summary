@@ -1,9 +1,9 @@
 {
   "mcpServers": {
-    "weather": {
+    "systemInfo": {
       "command": "npx",
       "args": [
-        "mcp-weather-server"
+        "mcp-si"
       ]
     }
   }
