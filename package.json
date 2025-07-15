@@ -1,5 +1,5 @@
 {
-  "name": "mcp-file-summary",
+  "name": "mcp-si",
   "version": "1.0.1",
   "description": "An MCP (Model Context Protocol) tool for getting system info on the local device.",
   "main": "index.js",

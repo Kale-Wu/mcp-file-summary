@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "npx",
+      "args": [
+        "mcp-weather-server"
+      ]
+    }
+  }
+}
